@@ -1,0 +1,21 @@
+id: Places/PPL_OSM/label/Town_Center
+type: symbol
+source: esri
+source-layer: PPL_OSM
+filter:
+  - '=='
+  - _label_class3
+  - 3
+minzoom: 10.53
+maxzoom: 14.85
+layout:
+  text-font:
+    - Noto Sans Display Medium
+    - Arial Unicode MS Regular
+  text-size: 10.6667
+  text-anchor: center
+  text-field: '{_name3}'
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

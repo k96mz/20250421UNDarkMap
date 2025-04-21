@@ -1,0 +1,17 @@
+id: Transport/TRA_Bridges_L/label/Minor
+type: symbol
+source: esri
+source-layer: TRA_Bridges_L/label
+minzoom: 14.85
+layout:
+  symbol-placement: line
+  symbol-spacing: 1000
+  text-font:
+    - Noto Sans Display Regular
+  text-size: 9.33333
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#777D89'
+  text-halo-color: '#10141A'
+  text-halo-width: 1.33333

@@ -1,0 +1,9 @@
+id: background
+type: background
+paint:
+  background-color:
+    stops:
+      - - 7
+        - '#354252'
+      - - 10
+        - '#354252'

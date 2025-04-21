@@ -1,0 +1,21 @@
+id: Places/PPL_OSM/label/Other_Center
+type: symbol
+source: esri
+source-layer: PPL_OSM
+filter:
+  - '=='
+  - _label_class5
+  - 5
+minzoom: 13.85
+layout:
+  text-font:
+    - Noto Sans Display Regular
+    - Arial Unicode MS Regular
+  text-size: 9.33333
+  text-anchor: center
+  text-field: '{_name5}'
+  text-optional: true
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

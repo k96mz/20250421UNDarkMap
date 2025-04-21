@@ -1,0 +1,38 @@
+id: POI/POI_MINUSCA/Ferry
+type: symbol
+source: esri
+source-layer: POI_MINUSCA
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 12
+layout:
+  icon-image: POI_Ferry
+  icon-size:
+    stops:
+      - - 13
+        - 1
+      - - 14
+        - 1.2
+  text-font:
+    - Noto Sans Display Medium
+    - Arial Unicode MS Regular
+  text-size: 10.6667
+  text-anchor: bottom
+  text-offset:
+    - 0
+    - -1
+  text-field: '{_name1}'
+  text-optional: true
+paint:
+  icon-color: '#DEDEDE'
+  text-opacity:
+    stops:
+      - - 13
+        - 0
+      - - 14
+        - 1
+  text-color: '#DEDEDE'
+  text-halo-color: rgba(255,255,255,0.1)
+  text-halo-width: 1.33333

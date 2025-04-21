@@ -1,0 +1,25 @@
+id: Places/PPL_Mission/label/City_MIS
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 5.89
+maxzoom: 8.21
+layout:
+  text-font:
+    - Noto Sans Display Medium
+    - Arial Unicode MS Regular
+  text-size: 10.6667
+  text-anchor: bottom
+  text-offset:
+    - 0
+    - -0.3
+  text-field: '{_name}'
+  icon-image: PPL_City
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

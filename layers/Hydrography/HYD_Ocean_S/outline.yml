@@ -1,0 +1,24 @@
+id: Hydrography/HYD_Ocean_S/outline
+type: line
+source: esri
+source-layer: HYD_Ocean_S
+maxzoom: 9
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-opacity:
+    stops:
+      - - 8
+        - 1
+      - - 9
+        - 0
+  line-color:
+    stops:
+      - - 4
+        - '#10141A'
+      - - 7
+        - '#10141A'
+      - - 9
+        - '#10141A'
+  line-width: 0.666667

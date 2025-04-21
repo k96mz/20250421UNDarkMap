@@ -1,0 +1,49 @@
+id: POI/POI_IATA_A/Airport
+type: symbol
+source: esri
+source-layer: POI_IATA_A
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 7
+maxzoom: 10
+layout:
+  icon-image: POI_Airport_S
+  icon-allow-overlap: false
+  icon-size:
+    base: 1
+    stops:
+      - - 7
+        - 1
+      - - 11
+        - 1.2
+  text-font:
+    - Noto Sans Display SemiBold
+    - Arial Unicode MS Regular
+  text-size:
+    base: 1
+    stops:
+      - - 7
+        - 9.3333
+      - - 11
+        - 11.3333
+  text-anchor: bottom
+  text-offset:
+    stops:
+      - - 9
+        - - 0
+          - -0.75
+      - - 11
+        - - 0
+          - -1.2
+  text-field: '{_name}'
+  text-optional: true
+  text-padding: 0
+  icon-padding: 0
+  icon-optional: false
+paint:
+  icon-color: '#DEDEDE'
+  text-color: '#DEDEDE'
+  text-halo-color: rgba(255,255,255,0.1)
+  text-halo-width: 1.33333

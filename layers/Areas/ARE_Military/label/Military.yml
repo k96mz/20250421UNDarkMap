@@ -1,0 +1,15 @@
+id: Areas/ARE_Military/label/Military
+type: symbol
+source: esri
+source-layer: ARE_Military/label
+minzoom: 12.53
+layout:
+  text-font:
+    - Noto Sans Display Regular
+  text-size: 10.6667
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#777D89'
+  text-halo-color: '#10141A'
+  text-halo-width: 1.33333

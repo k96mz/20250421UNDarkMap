@@ -1,0 +1,22 @@
+id: Labels/LAB_Autonomous_L
+type: symbol
+source: esri
+source-layer: LAB_Autonomous_L
+minzoom: 5.89
+maxzoom: 7.21
+layout:
+  icon-image: Labels/LAB_Autonomous_L
+  icon-allow-overlap: true
+  text-font:
+    - Open Sans Regular
+  text-size: 12
+  text-anchor: center
+  text-letter-spacing: 0.05
+  text-field: '{_name}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  icon-color: rgba(101,122,140,0.7)
+  text-color: '#777D89'
+  text-halo-color: rgb(0, 0, 0)
+  text-halo-width: 1

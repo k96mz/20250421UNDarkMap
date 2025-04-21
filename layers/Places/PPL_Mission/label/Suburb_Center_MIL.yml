@@ -1,0 +1,22 @@
+id: Places/PPL_Mission/label/Suburb_Center_MIL
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class18
+  - 18
+minzoom: 11.53
+maxzoom: 16.59
+layout:
+  text-font:
+    - Noto Sans Display Italic
+    - Arial Unicode MS Regular
+  text-size: 9.33333
+  text-anchor: center
+  text-field: '{_name18}'
+  text-optional: true
+paint:
+  text-color: '#777D89'
+  text-halo-color: '#10141A'
+  text-halo-width: 1.33333

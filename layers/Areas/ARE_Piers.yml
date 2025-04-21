@@ -1,0 +1,9 @@
+id: Areas/ARE_Piers
+type: fill
+source: esri
+source-layer: ARE_Piers
+minzoom: 10
+layout: {}
+paint:
+  fill-color: '#3D4959'
+  fill-outline-color: rgba(61,73,89,0.3)

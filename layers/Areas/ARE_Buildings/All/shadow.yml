@@ -1,0 +1,20 @@
+id: Areas/ARE_Buildings/All/shadow
+type: fill
+source: esri
+source-layer: ARE_Buildings
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 15
+layout: {}
+paint:
+  fill-color: '#3D444C'
+  fill-translate:
+    stops:
+      - - 15
+        - - 0
+          - 0
+      - - 17
+        - - 3
+          - 3

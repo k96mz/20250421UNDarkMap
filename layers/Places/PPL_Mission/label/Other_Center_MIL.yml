@@ -1,0 +1,21 @@
+id: Places/PPL_Mission/label/Other_Center_MIL
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class17
+  - 17
+minzoom: 11.53
+layout:
+  text-font:
+    - Noto Sans Display Regular
+    - Arial Unicode MS Regular
+  text-size: 9.33333
+  text-anchor: center
+  text-field: '{_name17}'
+  text-optional: true
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

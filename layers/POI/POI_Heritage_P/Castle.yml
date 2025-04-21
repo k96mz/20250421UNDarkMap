@@ -1,0 +1,34 @@
+id: POI/POI_Heritage_P/Castle
+type: symbol
+source: esri
+source-layer: POI_Heritage_P
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 15
+layout:
+  icon-image: POI_Castle
+  icon-allow-overlap: true
+  icon-size:
+    stops:
+      - - 15
+        - 0.8
+      - - 16
+        - 1
+  text-font:
+    - Noto Sans Display Medium
+    - Arial Unicode MS Regular
+  text-size: 9.33333
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.75
+  text-padding: 1
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  icon-color: '#DEDEDE'
+  text-color: '#DEDEDE'
+  text-halo-color: rgba(255,255,255,0.1)
+  text-halo-width: 1.33333

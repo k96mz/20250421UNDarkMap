@@ -1,0 +1,21 @@
+id: Places/PPL_Mission/label/Town_Center_MIK
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class10
+  - 10
+minzoom: 11.53
+maxzoom: 14.85
+layout:
+  text-font:
+    - Noto Sans Display Medium
+    - Arial Unicode MS Regular
+  text-size: 10.6667
+  text-anchor: center
+  text-field: '{_name10}'
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

@@ -1,0 +1,22 @@
+id: Places/PPL_OSM/label/Suburb_Center
+type: symbol
+source: esri
+source-layer: PPL_OSM
+filter:
+  - '=='
+  - _label_class6
+  - 6
+minzoom: 11.53
+maxzoom: 16.59
+layout:
+  text-font:
+    - Noto Sans Display Italic
+    - Arial Unicode MS Regular
+  text-size: 9.33333
+  text-anchor: center
+  text-field: '{_name6}'
+  text-optional: true
+paint:
+  text-color: '#06080A'
+  text-halo-color: rgba(92,111,128,0.7)
+  text-halo-width: 1

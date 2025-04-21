@@ -1,0 +1,22 @@
+id: Places/PPL_Mission/label/Village_Center_MIS
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class4
+  - 4
+minzoom: 10.53
+maxzoom: 14.85
+layout:
+  text-font:
+    - Noto Sans Display Regular
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-anchor: center
+  text-field: '{_name4}'
+  text-optional: true
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5

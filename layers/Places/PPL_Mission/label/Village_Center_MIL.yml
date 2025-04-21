@@ -1,0 +1,22 @@
+id: Places/PPL_Mission/label/Village_Center_MIL
+type: symbol
+source: esri
+source-layer: PPL_Mission
+filter:
+  - '=='
+  - _label_class16
+  - 16
+minzoom: 10.53
+maxzoom: 15.85
+layout:
+  text-font:
+    - Noto Sans Display Regular
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-anchor: center
+  text-field: '{_name16}'
+  text-optional: true
+paint:
+  text-color: '#ededed'
+  text-halo-color: rgba(255, 255, 255, 0.2)
+  text-halo-width: 0.5
