@@ -1,12 +1,12 @@
 {
   "version": 8,
-  "sprite": "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/sprites/sprite?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96EIm9wj_mbmslIUrfDz2md-OKKKizy3OOKCThqlKJor8GD9-hm3VJlMh0QizgGo0ItWlYuu9Jz8BzkJZ70FFTv8L_Oh4PUCtt_02wURtNIp8nTHF5CMI-kVCPEJfouklLwYOrq9jrGnXHyj6L78IBrk.",
-  "glyphs": "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96EIm9wj_mbmslIUrfDz2md-OKKKizy3OOKCThqlKJor8GD9-hm3VJlMh0QizgGo0ItWlYuu9Jz8BzkJZ70FFTv8L_Oh4PUCtt_02wURtNIp8nTHF5CMI-kVCPEJfouklLwYOrq9jrGnXHyj6L78IBrk.",
+  "sprite": "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/sprites/sprite",
+  "glyphs": "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
   "sources": {
     "esri": {
       "type": "vector",
       "tiles": [
-        "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96EIm9wj_mbmslIUrfDz2md-OKKKizy3OOKCThqlKJor8GD9-hm3VJlMh0QizgGo0ItWlYuu9Jz8BzkJZ70FFTv8L_Oh4PUCtt_02wURtNIp8nTHF5CMI-kVCPEJfouklLwYOrq9jrGnXHyj6L78IBrk."
+        "https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf"
       ]
     }
   },
