@@ -1,24 +1,39 @@
-TOKEN="m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96I0SuMtR-c3EpoyKGc-H0dV8WmDKlNkm6Bg_vk2uHlRPl4Ssir7d_73KTZ7flfB_HFFSAC7ZVrxnIA6ktzn_zhUKVakFuS8_92ULk_f4eBlhuWV58caXoqzs3Ffqwqtb4-uIxnTh8XfBTpQHKJnLj1maNIXYAFH8MKPYW7_9arMxfWq1v7p78BJ4ofcXUdmd0tM76rTdJMbblpGEtfTkUR-jLI7YcpXDFUxVLGc4VtM"
+#!/bin/bash
+
+TOKEN="m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96J6D19YzlhwyktFfBI6YyAjJ8X9ChhCmKtzWYojqfnnuhZPv4muyV1Aqg-QLXNox2B_jdhW3Iwz5HV84BbV7gyOEwoApINmKbfcqdxRBzuL6gvCVt7VV177xYrXvaHOVbtl-ZzCsGmfruTr1ET1NzXkAZ12NW0DcfzZZPlCvl_DpS_BKTdlqk36S7daFZVNaGnTRvFY6AG4kap7say7R845kisLnUJwQ6g6MiNqh4FSz"
 BASE_URL="https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts"
 
-for font in \
-  "Noto%20Sans%20Bold" \
-  "Noto%20Sans%20Display%20Bold" \
-  "Noto%20Sans%20Display%20Italic" \
-  "Noto%20Sans%20Display%20Medium%20Italic" \
-  "Noto%20Sans%20Display%20Medium" \
-  "Noto%20Sans%20Display%20Regular" \
-  "Noto%20Sans%20Display%20SemiBold%20Italic" \
-  "Noto%20Sans%20Display%20SemiBold" \
-  "Noto%20Sans%20Regular" \
-  "Open%20Sans%20Bold" \
-  "Open%20Sans%20Regular" \
-  "Open%20Sans%20Semibold" \
-  "Open%20Sans%20SemiBold"
-do
-  mkdir -p "glyphs/$font"
-  for range in 0-255 256-511
-  do
-    curl -s -o "glyphs/$font/$range.pbf" "$BASE_URL/$font/$range.pbf?token=$TOKEN"
+# フォント名（表示用）と URLエンコードされた名前（URL用）をセットで定義
+fonts=(
+  "Noto Sans Bold|Noto%20Sans%20Bold"
+  "Noto Sans Display Bold|Noto%20Sans%20Display%20Bold"
+  "Noto Sans Display Italic|Noto%20Sans%20Display%20Italic"
+  "Noto Sans Display Medium Italic|Noto%20Sans%20Display%20Medium%20Italic"
+  "Noto Sans Display Medium|Noto%20Sans%20Display%20Medium"
+  "Noto Sans Display Regular|Noto%20Sans%20Display%20Regular"
+  "Noto Sans Display SemiBold Italic|Noto%20Sans%20Display%20SemiBold%20Italic"
+  "Noto Sans Display SemiBold|Noto%20Sans%20Display%20SemiBold"
+  "Noto Sans Regular|Noto%20Sans%20Regular"
+  "Open Sans Bold|Open%20Sans%20Bold"
+  "Open Sans Regular|Open%20Sans%20Regular"
+  "Open Sans Semibold|Open%20Sans%20Semibold"
+  "Open Sans SemiBold|Open%20Sans%20SemiBold"
+)
+
+ranges=(
+  0-255
+  256-511
+)
+
+for font_pair in "${fonts[@]}"; do
+  # 分割してローカル用（スペースあり）とURL用（%20）に分ける
+  IFS="|" read -r font_dir font_url <<< "$font_pair"
+
+  mkdir -p "glyphs/$font_dir"
+
+  for range in "${ranges[@]}"; do
+    echo "Downloading $font_dir $range..."
+    curl -s -o "glyphs/$font_dir/$range.pbf" \
+      "$BASE_URL/$font_url/$range.pbf?token=$TOKEN"
   done
 done
