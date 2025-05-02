@@ -1,14 +1,13 @@
 version: 8
-sprite: >-
-  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/sprites/sprite
+sprite: http://localhost:8080/sprites/sprite
 glyphs: >-
-  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf
+  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96IeQNBmNx32GhrhlJYVMBZbLVv02J_LrHtRTGkxHjGh7fB21qodMOlYUiURIBkqupKan345ADIJKTgb42QRXF4UDrTAMAAikcI5MvzzsCgfELDBlUI4FGoIL-V5JrefEgQ8MNWQhIkvUUQfKIubJa0yrrMLVGFm-J61MzGn50i5IoJrvkEAUwOWO8bcb03Io-Cr-6L0Bzo1HzMSj-rJ0HNO1sEiAlFey0lqrlWcZjUPt
 sources:
   esri:
     type: vector
     tiles:
       - >-
-        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf
+        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96IeQNBmNx32GhrhlJYVMBZbLVv02J_LrHtRTGkxHjGh7fB21qodMOlYUiURIBkqupKan345ADIJKTgb42QRXF4UDrTAMAAikcI5MvzzsCgfELDBlUI4FGoIL-V5JrefEgQ8MNWQhIkvUUQfKIubJa0yrrMLVGFm-J61MzGn50i5IoJrvkEAUwOWO8bcb03Io-Cr-6L0Bzo1HzMSj-rJ0HNO1sEiAlFey0lqrlWcZjUPt
 layers:
   - !!inc/file layers/background.yml
   - !!inc/file layers/Landuse/LND_Landcover_S/Forest.yml
