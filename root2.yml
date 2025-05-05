@@ -1,13 +1,12 @@
 version: 8
 sprite: https://k96mz.github.io/20250421UNDarkMap/sprites/sprite
-glyphs: >-
-  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96AZj2_dG-6UMWTr5AVoFMGngWC5hwsJcmlMHJI4eAJB9h8zELpvU0ejf3qWSVTm4hX-sNv3ORMQCflIAXCUTX_YvgCGbzgTuNFytLjLW5eEsX-VhnONJ3InHpwXI6XhRADL0jdPxZDL1zYm7xL_lUQEVN9aRGPgfOskdv7DP9d06Wt_l96qAm62CEF63WMZKxw59wFnIzwcFOqGWQBLiuLDxY4v1VS8hcTqB-NxB3yH7
+glyphs: https://k96mz.github.io/20250421UNDarkMap/glyphs/{fontstack}/{range}.pbf
 sources:
   esri:
     type: vector
     tiles:
       - >-
-        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96AZj2_dG-6UMWTr5AVoFMGngWC5hwsJcmlMHJI4eAJB9h8zELpvU0ejf3qWSVTm4hX-sNv3ORMQCflIAXCUTX_YvgCGbzgTuNFytLjLW5eEsX-VhnONJ3InHpwXI6XhRADL0jdPxZDL1zYm7xL_lUQEVN9aRGPgfOskdv7DP9d06Wt_l96qAm62CEF63WMZKxw59wFnIzwcFOqGWQBLiuLDxY4v1VS8hcTqB-NxB3yH7
+        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96NhyjrY0d4GYDiTbwot-ADTAUxuXO4mwG5mc8oZx3OHqiuRx2PKng1tkEHEwrJB91u4oY1vDLK89PfcsfwxklAeaovrgkcRV716Ii8ePGnNsNoA20R1W5QELQPmXqJeFhJ9Z5_FrjaxGfujtVpadT3i9Z-GIJsAdji3hVIAv15YivIgVKKP0p8Z_Lo4O8ZIkNUHHAKgCDQCccGlSnLHXZmfIosVFqoVNmaFAIc7VJ3ZS
 layers:
   - !!inc/file layers/background.yml
   - !!inc/file layers/Landuse/LND_Landcover_S/Forest.yml
