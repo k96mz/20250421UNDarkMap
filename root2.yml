@@ -5,7 +5,7 @@ sources:
   esri:
     type: vector
     tiles:
-      - https://k96mz.github.io/20250421UNDarkMap/tiles/{z}/{x}/{y}.pbf.gz
+      - https://k96mz.github.io/20250421UNDarkMap/tiles/{z}/{x}/{y}.pbf
 layers:
   - !!inc/file layers/background.yml
   - !!inc/file layers/Landuse/LND_Landcover_S/Forest.yml

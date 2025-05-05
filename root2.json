@@ -6,7 +6,7 @@
     "esri": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20250421UNDarkMap/tiles/{z}/{x}/{y}.pbf.gz"
+        "https://k96mz.github.io/20250421UNDarkMap/tiles/{z}/{x}/{y}.pbf"
       ]
     }
   },
