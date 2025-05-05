@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOKEN="m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96J6D19YzlhwyktFfBI6YyAjJ8X9ChhCmKtzWYojqfnnuhZPv4muyV1Aqg-QLXNox2B_jdhW3Iwz5HV84BbV7gyOEwoApINmKbfcqdxRBzuL6gvCVt7VV177xYrXvaHOVbtl-ZzCsGmfruTr1ET1NzXkAZ12NW0DcfzZZPlCvl_DpS_BKTdlqk36S7daFZVNaGnTRvFY6AG4kap7say7R845kisLnUJwQ6g6MiNqh4FSz"
+TOKEN=""
 BASE_URL="https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts"
 
 # フォント名（表示用）と URLエンコードされた名前（URL用）をセットで定義

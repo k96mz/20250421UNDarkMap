@@ -1,13 +1,13 @@
 version: 8
 sprite: https://k96mz.github.io/20250421UNDarkMap/sprites/sprite
 glyphs: >-
-  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96J6D19YzlhwyktFfBI6YyAjJ8X9ChhCmKtzWYojqfnnuhZPv4muyV1Aqg-QLXNox2B_jdhW3Iwz5HV84BbV7gyOEwoApINmKbfcqdxRBzuL6gvCVt7VV177xYrXvaHOVbtl-ZzCsGmfruTr1ET1NzXkAZ12NW0DcfzZZPlCvl_DpS_BKTdlqk36S7daFZVNaGnTRvFY6AG4kap7say7R845kisLnUJwQ6g6MiNqh4FSz
+  https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96AZj2_dG-6UMWTr5AVoFMGngWC5hwsJcmlMHJI4eAJB9h8zELpvU0ejf3qWSVTm4hX-sNv3ORMQCflIAXCUTX_YvgCGbzgTuNFytLjLW5eEsX-VhnONJ3InHpwXI6XhRADL0jdPxZDL1zYm7xL_lUQEVN9aRGPgfOskdv7DP9d06Wt_l96qAm62CEF63WMZKxw59wFnIzwcFOqGWQBLiuLDxY4v1VS8hcTqB-NxB3yH7
 sources:
   esri:
     type: vector
     tiles:
       - >-
-        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96J6D19YzlhwyktFfBI6YyAjJ8X9ChhCmKtzWYojqfnnuhZPv4muyV1Aqg-QLXNox2B_jdhW3Iwz5HV84BbV7gyOEwoApINmKbfcqdxRBzuL6gvCVt7VV177xYrXvaHOVbtl-ZzCsGmfruTr1ET1NzXkAZ12NW0DcfzZZPlCvl_DpS_BKTdlqk36S7daFZVNaGnTRvFY6AG4kap7say7R845kisLnUJwQ6g6MiNqh4FSz
+        https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Unite_StreetMapDarkVT_CVW_V01/VectorTileServer/tile/{z}/{y}/{x}.pbf?token=m8vAxaa8CBcxqomyNrQX_nlgwrKvQJC7ZNSekfdajaEXLA20YTyDyL166lOEMZQ6Ut4LTv52zuPNAwJRscC96AZj2_dG-6UMWTr5AVoFMGngWC5hwsJcmlMHJI4eAJB9h8zELpvU0ejf3qWSVTm4hX-sNv3ORMQCflIAXCUTX_YvgCGbzgTuNFytLjLW5eEsX-VhnONJ3InHpwXI6XhRADL0jdPxZDL1zYm7xL_lUQEVN9aRGPgfOskdv7DP9d06Wt_l96qAm62CEF63WMZKxw59wFnIzwcFOqGWQBLiuLDxY4v1VS8hcTqB-NxB3yH7
 layers:
   - !!inc/file layers/background.yml
   - !!inc/file layers/Landuse/LND_Landcover_S/Forest.yml
